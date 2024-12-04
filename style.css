@@ -24,6 +24,11 @@ header {
     text-align: center;
 }
 
+.content3 {
+    padding: 20px;
+    text-align: center;
+}
+
 footer {
     background-color: #333;
     color: #fff;
