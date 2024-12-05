@@ -33,3 +33,7 @@ function CalcSum(a, b){
 function CalcSub(a, b){
     return a - b;
 }
+
+function CalcMul(a, b){
+    return a * b;
+}
