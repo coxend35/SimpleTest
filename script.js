@@ -25,3 +25,7 @@ document.getElementById('OnBnClickedResetBtn').addEventListener('click', functio
 function AddNumbers(num){
     return num * (num + 1) / 2;
 }
+
+function CalcSum(a, b){
+    return a + b;
+}
