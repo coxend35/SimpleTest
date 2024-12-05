@@ -29,3 +29,7 @@ function AddNumbers(num){
 function CalcSum(a, b){
     return a + b;
 }
+
+function CalcSub(a, b){
+    return a - b;
+}
