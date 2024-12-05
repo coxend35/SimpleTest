@@ -39,5 +39,5 @@ function CalcMul(a, b){
 }
 
 function CalcDiv(a, b){
-    return a / b;
+    return Number(a / b);
 }
