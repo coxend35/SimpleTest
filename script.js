@@ -16,9 +16,5 @@ document.getElementById('OnBnClickedResetBtn').addEventListener('click', functio
 });
 
 function AddNumbers(num){
-    var result = 0;
-    for(var i = 0; i<n+1; i++){
-        result +=i;
-    }
-    return result;
+    return num * (num + 1) / 2;
 }
