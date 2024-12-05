@@ -43,4 +43,16 @@ function CalcDiv(a, b){
         return 0;
     }
     return Number(a / b);
+    return a / b;
+}
+
+function CalcPow(a, b){
+    var result =1;
+
+    for(var i=0; i<b;i++){
+        result = result * a;
+    }
+
+    return result;
+
 }
