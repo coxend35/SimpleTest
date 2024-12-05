@@ -37,3 +37,7 @@ function CalcSub(a, b){
 function CalcMul(a, b){
     return a * b;
 }
+
+function CalcDiv(a, b){
+    return a / b;
+}
