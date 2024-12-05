@@ -14,3 +14,11 @@ document.getElementById('OnBnClickedResetBtn').addEventListener('click', functio
         cnt = 0;
     }
 });
+
+function AddNumbers(num){
+    var result = 0;
+    for(var i = 0; i<n+1; i++){
+        result +=i;
+    }
+    return result;
+}
