@@ -39,5 +39,24 @@ function CalcMul(a, b){
 }
 
 function CalcDiv(a, b){
+    if(b == 0){
+        return 0;
+    }
+    return Number(a / b);
     return a / b;
+}
+
+function CalcPow(a, b){
+    var result =1;
+
+    if(a == 0){
+        return 0;
+    }
+
+    for(var i=0; i<b;i++){
+        result = result * a;
+    }
+
+    return result;
+
 }
