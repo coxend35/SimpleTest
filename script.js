@@ -5,8 +5,8 @@ document.getElementById('OnBnClickedMsgBtn').addEventListener('click', function(
     content.innerHTML += '<br>Button clicked!'; // <br> 태그로 줄 바꿈을 추가
     content.innerHTML += ++cnt; // <br> 태그로 줄 바꿈을 추가
 
-    const content3 = document.querySelector('.content3 p');
-    content3.innerHTML = cnt;
+    // const content3 = document.querySelector('.content3 p');
+    // content3.innerHTML = cnt;
 
 });
 
@@ -17,8 +17,8 @@ document.getElementById('OnBnClickedResetBtn').addEventListener('click', functio
         alert("Number of contents removed : " + cnt);
         cnt = 0;
 
-        const content3 = document.querySelector('.content3 p');
-        content3.innerHTML = 0;
+        // const content3 = document.querySelector('.content3 p');
+        // content3.innerHTML = 0;
     }
 });
 
