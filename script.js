@@ -43,7 +43,6 @@ function CalcDiv(a, b){
         return 0;
     }
     return Number(a / b);
-    return a / b;
 }
 
 function CalcPow(a, b){
@@ -58,7 +57,6 @@ function CalcPow(a, b){
     }
 
     return result;
-
 }
 
 function MulAll(n){
@@ -66,4 +64,8 @@ function MulAll(n){
         return 1;
     }
     return n * MulAll(n-1);
+}
+
+function AddAll(n){
+    return n * (n+1) / 2;
 }
