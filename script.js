@@ -7,8 +7,10 @@ document.getElementById('OnBnClickedMsgBtn').addEventListener('click', function(
 });
 
 document.getElementById('OnBnClickedResetBtn').addEventListener('click', function() {
-    const content = document.querySelector('.content p');
-    content.textContent = 'This is a simple web page to practice Git and GitHub.';
-    alert("Total "+cnt+" contents removed");
-    cnt = 0;
+    if(confirm("Clear contents?")){
+        const content = document.querySelector('.content p');
+        content.textContent = 'This is a simple web page to practice Git and GitHub.';
+        alert("Total "+cnt+" contents removed");
+        cnt = 0;
+    }
 });
