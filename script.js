@@ -10,7 +10,7 @@ document.getElementById('OnBnClickedResetBtn').addEventListener('click', functio
     if(confirm("Clear contents?")){
         const content = document.querySelector('.content p');
         content.textContent = 'This is a simple web page to practice Git and GitHub.';
-        alert("Total "+cnt+" contents removed");
+        alert("Number of contents removed : " + cnt);
         cnt = 0;
     }
 });
