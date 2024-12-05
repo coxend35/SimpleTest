@@ -49,6 +49,10 @@ function CalcDiv(a, b){
 function CalcPow(a, b){
     var result =1;
 
+    if(a == 0){
+        return 0;
+    }
+
     for(var i=0; i<b;i++){
         result = result * a;
     }
